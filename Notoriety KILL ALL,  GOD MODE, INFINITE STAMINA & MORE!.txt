@@ -1,0 +1,8 @@
+getgenv().Configuration = {
+     GodMode = true, --Self explanatory.
+     KillAllNpcs = false, --If this is enabled that means it will kill ALL npcs/players including your teammates, making it disabled that means it will only kill the polices.
+     AutoKillPolice = true, --Will kill all polices when they spawn.
+     InfiniteStamina = true, --Self explanatory.
+}
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/rebSYkvY'), true))()
